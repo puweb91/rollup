@@ -1,9 +1,7 @@
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import babel from "@rollup/plugin-babel";
-// import html from "@rollup/plugin-html";
 import { terser } from "rollup-plugin-terser";
-import _ from 'lodash';
 
 export default {
     input: 'src/index.js',
@@ -25,5 +23,5 @@ export default {
         //     title: 'Rollup Test'
         // })
     ],
-    external: ['lodash']
+    // external: ['lodash']
 }
