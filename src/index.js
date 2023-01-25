@@ -1,3 +1,4 @@
 import * as main from "./main.js";
 
-main.default();
+main.numbers();
+main.counter();
